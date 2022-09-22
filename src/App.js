@@ -1,14 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Counter from "./components/Counter";
+import Header from "./components/Header";
+import Movies from "./components/Movies";
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-      </header>
+    <div className="bg-gray-200">
+      <Header />
+      <Movies />
     </div>
   );
 };
