@@ -2,8 +2,13 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="h-11 bg-white shadow-sm mb-5 px-2">
-      <h1>hedarer</h1>
+    <div className="bg-transparent">
+      <div className="flex justify-between ml-2 p-4">
+        <img src="/images/logo.png" className="h-7 cursor-pointer" alt="logo" />
+        <button className="text-white font-semibold px-2 hover:opacity-90">
+          Log in{" "}
+        </button>
+      </div>
     </div>
   );
 };

@@ -1,11 +1,13 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 import Movies from "./components/Movies";
 
 const App = () => {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-black">
       <Header />
-      <Movies />
+      <Hero />
+      {/* <Movies /> */}
     </div>
   );
 };
