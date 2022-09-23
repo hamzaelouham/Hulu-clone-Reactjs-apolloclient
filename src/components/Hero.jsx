@@ -1,4 +1,4 @@
-export default function Hero() {
+export const Hero = () => {
   return (
     <div
       className="relative object-fill h-screen"
@@ -31,4 +31,4 @@ export default function Hero() {
       </div>
     </div>
   );
-}
+};

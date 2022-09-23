@@ -16,7 +16,7 @@ const GET_PRODUCTS = gql`
   }
 `;
 
-export default function Movies() {
+export const Movies = () => {
   const { loading, data } = useQuery(GET_PRODUCTS);
 
   if (loading) return <h1>loading...</h1>;
@@ -30,4 +30,4 @@ export default function Movies() {
       </div>
     </div>
   );
-}
+};

@@ -1,6 +1,4 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Movies from "./components/Movies";
+import { Header, Hero } from "./components";
 
 const App = () => {
   return (

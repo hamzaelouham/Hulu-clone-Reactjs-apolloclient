@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+export const Header = () => {
   return (
     <div className="bg-transparent">
       <div className="flex justify-between ml-2 p-4">
@@ -12,5 +12,3 @@ const Header = () => {
     </div>
   );
 };
-
-export default Header;
