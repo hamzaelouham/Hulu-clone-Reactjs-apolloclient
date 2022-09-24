@@ -11,6 +11,7 @@ const GET_PRODUCTS = gql`
         poster_path
         backdrop_path
         original_title
+        release_date
       }
     }
   }
@@ -22,8 +23,11 @@ export const Movies = () => {
   if (loading) return <h1>loading...</h1>;
 
   return (
-    <div className="mt-5">
-      <div className="mx-auto md:max-w-xl max-w-xs gap-3 grid md:grid-cols-2 lg:grid-cols-3">
+    <div className="mt-5 mx-3 md:mx-auto md:max-w-7xl">
+      <div className="px-6 text-center my-6">
+        <h1 className="text-white font-semibold text-3xl">Popular Movies</h1>
+      </div>
+      <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
         {data?.nowPlayingMovies.movies.map((movie) => (
           <Movie key={movie.id} movie={movie} />
         ))}

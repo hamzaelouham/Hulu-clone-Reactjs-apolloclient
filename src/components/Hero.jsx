@@ -8,9 +8,10 @@ export const Hero = () => {
         backgroundImage: 'url("/images/hero.jpg")',
       }}
     >
+      <div className="h-28" />
       <div className="flex justify-center mx-auto p-2">
-        <div className="mt-9 flex flex-col items-center">
-          <h1 className="uppercase text-green-500 font-bold">
+        <div className="mt-10 flex flex-col items-center">
+          <h1 className="uppercase text-tcr font-bold">
             try up to one month free
           </h1>
           <div className="mt-7">
@@ -24,7 +25,7 @@ export const Hero = () => {
               Get Hulu, Disney+, and ESPN+.
             </h3>
           </div>
-          <button className="bg-white px-3 py-2 rounded  mt-6 font-semibold hover:opacity-80 text-sm  uppercase">
+          <button className="bg-white px-3 py-2 rounded animate-bounce mt-6 font-semibold hover:opacity-80 text-sm  uppercase">
             start your free trial
           </button>
         </div>

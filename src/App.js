@@ -1,10 +1,9 @@
-import { Header, Hero } from "./components";
+import { Home } from "./pages";
 
 const App = () => {
   return (
     <div className="bg-black">
-      <Header />
-      <Hero />
+      <Home />
       {/* <Movies /> */}
     </div>
   );
